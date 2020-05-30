@@ -1,0 +1,114 @@
+body
+{
+    background-color: #037fcbcc;
+    font-size: 1.1em;
+}
+
+#mainBlock{
+    padding-bottom: 2%;
+    align:center;
+    background: floralwhite;
+    width: 900px;
+}
+
+.header{
+    font-color: white;
+    text-transform: uppercase;
+    display: table;
+    margin: 0 auto;
+}
+.barButtons {
+    float: left;
+    background-color: #1733ffc7;
+    color: black;
+    border: none;
+    color: white;
+    padding: 1px 60px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.active{
+    background-color: #ff0000b8;
+    color: black;
+}
+.bottomButtons{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 30px;
+    min-width: 15%;
+    color: white;
+    background-color: black;
+}
+
+.choices{
+    float: left;
+}
+
+.heading{
+    display: block;
+    color: #0e7dac;
+    text-align: left;
+    padding: 1%;
+    margin-top: 15px;
+}
+
+.crust{
+    color: #0e7dac;
+}
+.blocks{
+    float: left;
+    border-right: 1px solid grey;
+    width: 16.5%;
+    padding: 2% 1.2%;
+    text-align: left;
+    font-size: 15px;
+    margin: 3px;
+}
+.blocks1{
+    float: left;
+    border-right: 1px solid grey;
+    width: 46.5%;
+    padding: 2% 1.2%;
+    text-align: left;
+    font-size: 15px;
+    margin: 3px;
+}
+.blocks2{
+    float: left;
+    width: 46.5%;
+    padding: 2% 1.2%;
+    text-align: left;
+    font-size: 15px;
+    margin: 3px;
+}
+.clearFloating{
+    clear: left;
+}
+#selection1{
+    display:block;
+}
+
+#selection2{
+   display:none;
+}
+
+#selection3{
+    display:none;
+}
+.toppings{
+    /*width: 45%;*/
+    float: left;
+    /*padding:2%;*/
+}
+.imageTick{
+    /*width: 40px;*/
+    background: url("../Image/tick_manali.png");
+}
